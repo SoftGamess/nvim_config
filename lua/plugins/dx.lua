@@ -1,4 +1,4 @@
 return {
-  branch = "dx",
-  "SoftGamess/miasma.nvim",
+  "SoftGamess/dx_scheme.nvim",
+  branch = "main",
 }
