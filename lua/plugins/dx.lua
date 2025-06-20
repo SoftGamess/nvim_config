@@ -1,4 +1,4 @@
 return {
   "SoftGamess/dx_scheme.nvim",
-  branch = "warm",
+  branch = "hengsha_lower",
 }
