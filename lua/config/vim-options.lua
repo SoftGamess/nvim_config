@@ -15,4 +15,4 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>',{})
 vim.keymap.set('n', '<leader>nt', ':Neotree filesystem reveal left toggle<CR>' ,{})
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "miasma"
