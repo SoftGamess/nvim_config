@@ -6,7 +6,8 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set autoindent")
 vim.cmd("set smartindent")
-vim.cmd("set guicursor=n-c:block-Cursor,v:block-vCursor,i-ci:ver75,o-r:hor5")
+vim.cmd("set guicursor=n-c:block-Cursor,v:block-vCursor,i-ci:ver75-block,o-r:hor5")
+vim.cmd("let g:rust_recommended_style = 0")
 vim.opt.number = true
 vim.api.nvim_create_autocmd("VimEnter", {
 	callback = function()
