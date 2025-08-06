@@ -23,7 +23,7 @@
   "telescope-file-browser.nvim": { "branch": "master", "commit": "3610dc7dc91f06aa98b11dca5cc30dfa98626b7e" },
   "telescope-ui-select.nvim": { "branch": "master", "commit": "6e51d7da30bd139a6950adf2a47fda6df9fa06d2" },
   "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
-  "the_uncanny_valley.nvim": { "branch": "main", "commit": "36c067a7c24ae8f32e82474a62aa6ad943fd9f1a" },
+  "the_uncanny_valley.nvim": { "branch": "main", "commit": "93a94eff2eb2caf7fe2f7b2af9e971eae7ab5da0" },
   "vim-test": { "branch": "master", "commit": "fba18e168565f055d4061408ada0f6abd9ea8bbd" },
   "vim-tmux-navigator": { "branch": "master", "commit": "c45243dc1f32ac6bcf6068e5300f3b2b237e576a" }
 }
