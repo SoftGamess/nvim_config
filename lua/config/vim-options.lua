@@ -17,4 +17,4 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>',{})
 vim.keymap.set('n', '<leader>nt', ':Neotree filesystem reveal left toggle<CR>' ,{})
-vim.cmd.colorscheme "dx_scheme"
+vim.cmd.colorscheme "the_uncanny_valley"
