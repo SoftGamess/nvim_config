@@ -2,12 +2,19 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
-      local lspconfig = require("lspconfig")
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
-      lspconfig.lua_ls.setup({ capabilities = capabilities })
-      lspconfig.ocamllsp.setup({ capabilities = capabilities })
-      lspconfig.clangd.setup({ capabilities = capabilities })
-      lspconfig.rust_analyzer.setup({ capabilities = capabilities })
+      vim.lsp.config["lua_ls"] = {
+        filetypes = { 'lua' },
+      }
+      vim.lsp.config["ocamllsp"] = {
+        filetypes = { 'ocaml' },
+      }
+      vim.lsp.config["clangd"] = {
+        filetypes = { 'c', 'h' },
+      }
+      vim.lsp.config["rust_analyzer"] = {
+        filetypes = { 'rs' },
+      }
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
       vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
